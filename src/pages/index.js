@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { css } from 'react-emotion'
 import Layout from '../components/layout'
-import Image from '../components/image'
 
 const pageTitleContainerClass = css`
   display: flex;
@@ -20,12 +19,12 @@ const pageTitleClass = css`
 
 const IndexPage = () => (
   <Layout>
-      <h1 className={center} >Hey there, my name is</h1>
+      <h2 className={center} >Hey there, my name is</h2>
       <h1 className={pageTitleClass}>Karam</h1>
 
-    <h1 className={center} >A frontend developer who enjoys writing code</h1>
+    <h2 className={center} >A frontend developer who enjoys writing code</h2>
     
-    <h1 className={center} >Especially Javascript and CSS</h1>
+    <h2 className={center} >Especially Javascript and CSS</h2>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }} />
   </Layout>
 )

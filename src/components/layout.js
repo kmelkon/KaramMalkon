@@ -3,25 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { css, injectGlobal } from 'react-emotion'
-import * as fonts from "../fonts"
-
-
 import Header from './header'
 import './layout.css'
-
-
-injectGlobal`
-  @font-face {
-    font-family: 'Jaapokki subtract';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Jaapokki subtract'), url('${fonts.JaapokkiSubtract}') format('ttf');
-  }
-  body {
-    font-family: 'Jaapokki subtract';
-    font-size: 20px;
-  }
-`
 
 injectGlobal`
   body {

@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,700');
+@font-face {
+  font-family: 'Jaapokki Subtract';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/jaapokkisubtract-regular.ttf');
+}
+
 html {
   /* font-family: sans-serif; */
   -ms-text-size-adjust: 100%;
@@ -228,11 +237,10 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
+  font-family: 'Jaapokki subtract';
   line-height: 1.1;
 }
 h2 {
@@ -245,7 +253,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -624,8 +632,11 @@ pre tt:after {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-p {
-  font-family: 'Roboto', sans-serif;
+p, ul, li, a {
+  font-family: 'Montserrat', sans-serif;
 }
+/* a {
+  font-family: 'Josefin Slab';
+  font-weight: 300;
+} */

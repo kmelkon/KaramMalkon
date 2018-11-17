@@ -18,7 +18,7 @@ const contactWrapperClass = css`
   ${'' /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */}
   color: #444;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   grid-gap: 50px;
   height: 50vh;
   margin-top: 60px;
