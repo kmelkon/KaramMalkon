@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { css } from 'react-emotion'
+import './header.css'
+
 
 const headerTitleClass = css`
   color: #fff;
@@ -49,23 +51,23 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul className={headerNavClass}>
-        <li className={headerNavItemClass}>
+      <ul className="header-nav">
+        <li className="header-nav-item">
           <Link to="/about/" className={headerNavLinkClass}>
             About
           </Link>
         </li>
-        <li className={headerNavItemClass}>
+        <li className="header-nav-item">
           <Link to="/projects" className={headerNavLinkClass}>
             Projects
           </Link>
         </li>
-        <li className={headerNavItemClass}>
+        <li className="header-nav-item">
           <Link to="/" className={headerNavLinkClass}>
             Blog
           </Link>
         </li>
-        <li className={headerNavItemClass}>
+        <li className="header-nav-item">
           <Link to="/contact/" className={headerNavLinkClass}>
             Contact
           </Link>

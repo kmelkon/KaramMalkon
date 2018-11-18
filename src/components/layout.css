@@ -630,13 +630,6 @@ pre tt:after {
     font-size: 100%;
   }
 }
-
-
-
 p, ul, li, a {
   font-family: 'Montserrat', sans-serif;
 }
-/* a {
-  font-family: 'Josefin Slab';
-  font-weight: 300;
-} */
