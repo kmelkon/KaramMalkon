@@ -17,16 +17,17 @@ Hey there! This is the source code for [my portfolio/blog website](https://galla
 ## 🗺 Sitemap
 
 - [Home](https://gallant-stallman-277dc3.netlify.com/)
+- [About](https://gallant-stallman-277dc3.netlify.com/about/)
 - Blog (🏗 In progress) 
 - Projects (🏗 In progress)
-- Contact (🏗 In progress)
+- [Contact](https://gallant-stallman-277dc3.netlify.com/contact/)
 
 ## ⏰ TODO
 
 - [ ] Responsive
 - [ ] Blog
 - [ ] Projects showcase/links
-- [ ] Contact links
+- [x] Contact links
 - [ ] progressive web app
 
 
