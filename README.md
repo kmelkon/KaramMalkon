@@ -19,14 +19,14 @@ Hey there! This is the source code for [my portfolio/blog website](https://galla
 - [Home](https://gallant-stallman-277dc3.netlify.com/)
 - [About](https://gallant-stallman-277dc3.netlify.com/about/)
 - Blog (🏗 In progress) 
-- Projects (🏗 In progress)
+- [Projects](https://gallant-stallman-277dc3.netlify.com/projects/)
 - [Contact](https://gallant-stallman-277dc3.netlify.com/contact/)
 
 ## ⏰ TODO
 
 - [ ] Responsive
 - [ ] Blog
-- [ ] Projects showcase/links
+- [x] Projects showcase/links
 - [x] Contact links
 - [ ] progressive web app
 

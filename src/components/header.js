@@ -56,7 +56,7 @@ const Header = ({ siteTitle }) => (
           </Link>
         </li>
         <li className={headerNavItemClass}>
-          <Link to="/" className={headerNavLinkClass}>
+          <Link to="/projects" className={headerNavLinkClass}>
             Projects
           </Link>
         </li>
