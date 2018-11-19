@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import { css, injectGlobal } from 'react-emotion'
 import Header from './header'
-import './layout.css'
+import './layout.scss'
 
 injectGlobal`
   body {

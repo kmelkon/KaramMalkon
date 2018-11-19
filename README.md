@@ -9,9 +9,11 @@ Hey there! This is the source code for [my portfolio/blog website](https://galla
 
 ## 👨‍💻 Tech stack
 
-- [Gatsby](https://gatsbyjs.org/) - static site generator
-- [emotion](https://emotion.sh) - css-in-js 
-- [netlify](https://www.netlify.com/) - static site deployment
+- [Gatsby](https://gatsbyjs.org/) - Static site generator
+- ~~[emotion](https://emotion.sh) - CSS-in-JS~~
+- [netlify](https://www.netlify.com/) - Static site deployment
+- [Sass](https://sass-lang.com) - CSS with superpowers
+- [Pose](https://popmotion.io/pose/) - Animation for React 
 - I'll list other technologies along the way.
 
 ## 🗺 Sitemap

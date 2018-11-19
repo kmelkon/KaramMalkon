@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { css } from 'react-emotion'
-import './header.css'
+import './header.scss'
 
 
 const headerTitleClass = css`
