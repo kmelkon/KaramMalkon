@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { StaticQuery, graphql } from 'gatsby'
 import { css } from 'react-emotion'
 import Image from '../components/image'
+import './about.scss'
 
 const pageTitleContainerClass = css`
   display: flex;
@@ -32,8 +33,8 @@ export default ({ data }) => (
     <div className={pageTitleContainerClass}>
       <h1 className={pageTitleClass}>About</h1>
     </div>
-    <div className={contentWrapper} >
-      <div className={avatarClass}>
+    <div className="contentWrapper" >
+      <div className="avatarClass">
          <Image />
       </div>
       <div className={aboutTextContent} >
