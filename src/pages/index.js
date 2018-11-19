@@ -7,13 +7,6 @@ import facepaint from 'facepaint'
 import './index.scss'
 
 
-const pageTitleContainerClass = css`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-`
 const center = css`
   text-align: center;
 `
@@ -50,23 +43,34 @@ const charPoses = {
 
 const IndexPage = () => (
   <Layout>
-    <div className={pageTitleContainerClass}>
-      <h2 className={cx(center, responsiveMediumText)}>
-        Hey there, my name is
-      </h2>
-      <h1 className={cx(pageTitleClass, responsiveBigText)}>
-        <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-          Karam
-        </SplitText>
-      </h1>
-      <h2 className={cx(center, responsiveMediumText)}>
-        A frontend developer who enjoys writing code
-      </h2>
-      <h2 className={cx(center, responsiveMediumText)}>
-        Especially Javascript and CSS
-      </h2>
-    </div>
+    <div className="pageTitleContainerClass">
+    
+      <div>
+        <h2 className={cx(center, responsiveMediumText)}>
+          Hey there, my name is
+        </h2>
+      </div>
 
+      <div>
+        <h1 className={cx(pageTitleClass, responsiveBigText)}>
+          <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
+            Karam
+          </SplitText>
+        </h1>
+      </div>
+
+      <div>
+        <h2 className={cx(center, responsiveMediumText)}>
+          A frontend developer who enjoys writing code
+        </h2>
+      </div>
+
+      <div>
+        <h2 className={cx(center, responsiveMediumText)}>
+          Especially Javascript and CSS
+        </h2>
+      </div>
+    </div>
   </Layout>
 )
 

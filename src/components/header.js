@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { css } from 'react-emotion'
-import './header.scss'
+import containerStyles from "./header.module.scss"
 
 
 const headerTitleClass = css`
@@ -51,23 +51,23 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul className="header-nav">
-        <li className="header-nav-item">
+      <ul className={containerStyles.headerNav}>
+        <li className={containerStyles.headerNavItem}>
           <Link to="/about/" activeClassName="active" className={headerNavLinkClass}>
             About
           </Link>
         </li>
-        <li className="header-nav-item">
+        <li className={containerStyles.headerNavItem}>
           <Link to="/projects" activeClassName="active" className={headerNavLinkClass}>
             Projects
           </Link>
         </li>
-        <li className="header-nav-item">
+        <li className={containerStyles.headerNavItem}>
           <Link to="/" activeClassName="active" className={headerNavLinkClass}>
             Blog
           </Link>
         </li>
-        <li className="header-nav-item">
+        <li className={containerStyles.headerNavItem}>
           <Link to="/contact/" activeClassName="active" className={headerNavLinkClass}>
             Contact
           </Link>

@@ -6,14 +6,23 @@
   font-weight: 500;
   src: url('../fonts/jaapokkisubtract-regular.ttf');
 }
+#___gatsby {
+  height: 100%;
+  > div {
+    height: 80%;
+  }
+}
 
 html {
   /* font-family: sans-serif; */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  margin: 0;
 }
 body {
   margin: 0;
+  height: 100%;
 }
 article,
 aside,

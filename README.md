@@ -26,11 +26,12 @@ Hey there! This is the source code for [my portfolio/blog website](https://galla
 
 ## ⏰ TODO
 
-- [ ] Responsive
+- [x] Responsive
 - [ ] Blog
 - [x] Projects showcase/links
 - [x] Contact links
-- [ ] progressive web app
+- [ ] Progressive web app
+- [ ] Make sure to only completely replace emotion with sass and CSS Modules 
 
 
 ## 🖐 Contributing

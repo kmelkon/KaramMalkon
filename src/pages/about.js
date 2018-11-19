@@ -9,12 +9,6 @@ const pageTitleContainerClass = css`
   display: flex;
   justify-content: center;
 `
-const pageTitleClass = css`
-  color: #cc5f5f;
-  text-transform: uppercase;
-  font-size: 5rem;
-`
-
 
 const contentWrapper = css`
   display: flex;
@@ -31,7 +25,7 @@ const avatarClass = css`
 export default ({ data }) => (
   <Layout>
     <div className={pageTitleContainerClass}>
-      <h1 className={pageTitleClass}>About</h1>
+      <h1 className="pageTitleClass">About</h1>
     </div>
     <div className="contentWrapper" >
       <div className="avatarClass">

@@ -22,7 +22,7 @@ const contactLinksClass = css`
 export default ({ data }) => (
   <Layout>
     <div className={pageTitleContainerClass}>
-      <h1 className={pageTitleClass}>Contact</h1>
+      <h1 className="pageTitleClass">Contact</h1>
     </div>
 
     <div className="contactWrapperClass">

@@ -1,12 +1,17 @@
 .contactWrapperClass {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: #444;
-    text-align: center;
-    font-size: 3.5rem;
-    grid-gap: 50px;
-    height: 50vh;
-    margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #444;
+  text-align: center;
+  font-size: 3.5rem;
+  grid-gap: 50px;
+  height: 50vh;
+  margin-top: 60px;
+}
+.pageTitleClass {
+  color: #cc5f5f;
+  text-transform: uppercase;
+  font-size: 5rem;
 }
 /* 
   ##Device = Desktops
@@ -30,10 +35,10 @@
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .contactWrapperClass {
-        font-size: 2.4rem;
-        grid-gap: 20px;
-      }
+  .contactWrapperClass {
+    font-size: 2.4rem;
+    grid-gap: 20px;
+  }
 }
 
 /* 
@@ -50,10 +55,13 @@
   */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .contactWrapperClass {
-        font-size: 1.4rem;
-        grid-gap: 10px;
-      }
+  .contactWrapperClass {
+    font-size: 1.4rem;
+    grid-gap: 10px;
+  }
+  .pageTitleClass {
+    font-size: 3.5rem;
+  }
 }
 
 /* 
@@ -62,8 +70,11 @@
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
-    .contactWrapperClass {
-        font-size: 1.4rem;
-        grid-gap: 10px;
-      }
+  .contactWrapperClass {
+    font-size: 1.4rem;
+    grid-gap: 10px;
+  }
+  .pageTitleClass {
+    font-size: 3.5rem;
+  }
 }

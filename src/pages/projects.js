@@ -32,8 +32,8 @@ const projectLinksWrapperClass = css`
 
 export default ({ data }) => (
   <Layout>
-    <div className="pageTitleContainerClass">
-      <h1 className="pageTitleClass">Projects</h1>
+    <div className="projectsTitleContainerClass">
+      <h1 className="projectsTitleClass">Projects</h1>
     </div>
     <div className={projectsWrapperClass}>
       <div className={projectBoxClass}>
