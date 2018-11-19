@@ -7,6 +7,9 @@
 .header-nav-item {
   margin-left: 20px;
 }
+.active {
+  box-shadow: 5px 6px 0px 1px #cc5f5f;
+}
 
 /* 
   ##Device = Desktops
@@ -57,7 +60,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: space-around;
-    border-top: 1px solid crimson;
+    background-color: #FBFBFB;
+    border-top: 1px solid #cc5f5f;
   }
   .header-nav-item {
     margin: 0;
@@ -66,6 +70,10 @@
     border: 0;
   }
   .header-nav-item a:hover {
+    box-shadow: none;
+  }
+  .active {
+    background-color: #e7b6b6;
     box-shadow: none;
   }
 }
@@ -87,7 +95,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     justify-content: space-around;
-    border-top: 1px solid crimson;
+    border-top: 1px solid #cc5f5f;
+    background-color: #FBFBFB;
   }
   .header-nav-item {
     margin: 0;
@@ -98,4 +107,10 @@
       }
     }
   }
+  .active {
+    background-color: #e7b6b6;
+    box-shadow: none;
+  }
 }
+
+
