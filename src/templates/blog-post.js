@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Img from 'gatsby-image';
-import Metatags from '../components/Metatags';
+import Metatags from '../components/metatags';
 import { graphql } from 'gatsby'
 import containerStyles from "./blog-post.module.scss"
 
