@@ -28,7 +28,7 @@ const headerContainerClass = css`
 const headerNavItemClass = css`
   margin-left: 20px;
 `
-const headerNavLinkClass = css`
+const navLinkClass = css`
   text-decoration: none;
   border: 1px solid #cc5f5f;
   color: #201a23;
@@ -51,24 +51,24 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <ul className={containerStyles.headerNav}>
-        <li className={containerStyles.headerNavItem}>
-          <Link to="/about/" activeClassName="active" className={headerNavLinkClass}>
+      <ul className={containerStyles.nav}>
+        <li className={containerStyles.navItem}>
+          <Link to="/about" activeClassName={containerStyles.active} className={containerStyles.link}>
             About
           </Link>
         </li>
-        <li className={containerStyles.headerNavItem}>
-          <Link to="/projects" activeClassName="active" className={headerNavLinkClass}>
+        <li className={containerStyles.navItem}>
+          <Link to="/projects" activeClassName={containerStyles.active} className={containerStyles.link}>
             Projects
           </Link>
         </li>
-        <li className={containerStyles.headerNavItem}>
-          <Link to="/" activeClassName="active" className={headerNavLinkClass}>
+        <li className={containerStyles.navItem}>
+          <Link to="/blog" activeClassName={containerStyles.active} className={containerStyles.link}>
             Blog
           </Link>
         </li>
-        <li className={containerStyles.headerNavItem}>
-          <Link to="/contact/" activeClassName="active" className={headerNavLinkClass}>
+        <li className={containerStyles.navItem}>
+          <Link to="/contact" activeClassName={containerStyles.active} className={containerStyles.link}>
             Contact
           </Link>
         </li>

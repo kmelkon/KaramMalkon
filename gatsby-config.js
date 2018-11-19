@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Karam Malkon',
+    siteUrl: 'https://karam-malkon.netlify.com',
   },
   plugins: [
     'gatsby-plugin-emotion',
@@ -15,6 +16,21 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`,
+        ]
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        name: "pages",
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

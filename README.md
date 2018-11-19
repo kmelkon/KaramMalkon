@@ -5,7 +5,7 @@
 <!-- [![Build Status](https://travis-ci.org/kevinwolfcr/kevinwolf.me.svg?branch=master)](https://travis-ci.org/kevinwolfcr/kevinwolf.me)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) -->
 
-Hey there! This is the source code for [my portfolio/blog website](https://gallant-stallman-277dc3.netlify.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
+Hey there! This is the source code for [my portfolio/blog website](https://https://karam-malkon.netlify.com/.netlify.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
 
 ## 👨‍💻 Tech stack
 
@@ -18,11 +18,11 @@ Hey there! This is the source code for [my portfolio/blog website](https://galla
 
 ## 🗺 Sitemap
 
-- [Home](https://gallant-stallman-277dc3.netlify.com/)
-- [About](https://gallant-stallman-277dc3.netlify.com/about/)
+- [Home](https://https://karam-malkon.netlify.com/.netlify.com/)
+- [About](https://https://karam-malkon.netlify.com/.netlify.com/about/)
 - Blog (🏗 In progress) 
-- [Projects](https://gallant-stallman-277dc3.netlify.com/projects/)
-- [Contact](https://gallant-stallman-277dc3.netlify.com/contact/)
+- [Projects](https://https://karam-malkon.netlify.com/.netlify.com/projects/)
+- [Contact](https://https://karam-malkon.netlify.com/.netlify.com/contact/)
 
 ## ⏰ TODO
 
