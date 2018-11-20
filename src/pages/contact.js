@@ -17,6 +17,10 @@ const pageTitleClass = css`
 const contactLinksClass = css`
   text-decoration: none;
   color: inherit;
+  transition: color 0.5s;
+  &:hover {
+    color: #444;
+  }
 `
 
 export default ({ data }) => (

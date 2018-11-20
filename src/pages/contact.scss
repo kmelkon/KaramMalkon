@@ -7,6 +7,10 @@
   grid-gap: 50px;
   height: 50vh;
   margin-top: 60px;
+  transition: color 0.5s;
+  &:hover {
+    color: #cacaca
+  }
 }
 .pageTitleClass {
   color: #cc5f5f;
