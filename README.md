@@ -20,14 +20,14 @@ Hey there! This is the source code for [my portfolio/blog website](https://https
 
 - [Home](https://https://karam-malkon.netlify.com/.netlify.com/)
 - [About](https://https://karam-malkon.netlify.com/.netlify.com/about/)
-- Blog (🏗 In progress) 
+- [Blog](https://https://karam-malkon.netlify.com/.netlify.com/blog/) 
 - [Projects](https://https://karam-malkon.netlify.com/.netlify.com/projects/)
 - [Contact](https://https://karam-malkon.netlify.com/.netlify.com/contact/)
 
 ## ⏰ TODO
 
 - [x] Responsive
-- [ ] Blog
+- [x] Blog
 - [x] Projects showcase/links
 - [x] Contact links
 - [ ] Progressive web app
