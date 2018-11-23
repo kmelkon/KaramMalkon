@@ -2,10 +2,7 @@
   Karam Malkon
 </h1>
 
-<!-- [![Build Status](https://travis-ci.org/kevinwolfcr/kevinwolf.me.svg?branch=master)](https://travis-ci.org/kevinwolfcr/kevinwolf.me)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) -->
-
-Hey there! This is the source code for [my portfolio/blog website](https://https://karam-malkon.netlify.com/.netlify.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
+Hey there! This is the source code for [my portfolio/blog website](https://www.karammalkon.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
 
 ## 👨‍💻 Tech stack
 
@@ -18,11 +15,11 @@ Hey there! This is the source code for [my portfolio/blog website](https://https
 
 ## 🗺 Sitemap
 
-- [Home](https://https://karam-malkon.netlify.com/.netlify.com/)
-- [About](https://https://karam-malkon.netlify.com/.netlify.com/about/)
-- [Blog](https://https://karam-malkon.netlify.com/.netlify.com/blog/) 
-- [Projects](https://https://karam-malkon.netlify.com/.netlify.com/projects/)
-- [Contact](https://https://karam-malkon.netlify.com/.netlify.com/contact/)
+- [Home](https://www.karammalkon.com/)
+- [About](https://www.karammalkon.com/about/)
+- [Blog](https://www.karammalkon.com/blog/) 
+- [Projects](https://www.karammalkon.com/projects/)
+- [Contact](https://www.karammalkon.com/contact/)
 
 ## ⏰ TODO
 
@@ -32,6 +29,8 @@ Hey there! This is the source code for [my portfolio/blog website](https://https
 - [x] Contact links
 - [ ] Progressive web app
 - [ ] Make sure to only completely replace emotion with sass and CSS Modules 
+- [ ] Add Google Analytics
+- [ ] Add newsletter subscription for the blog 
 
 
 ## 🖐 Contributing
