@@ -11,7 +11,7 @@ Hey there! This is the source code for [my portfolio/blog website](https://www.k
 - [netlify](https://www.netlify.com/) - Static site deployment
 - [Sass](https://sass-lang.com) - CSS with superpowers
 - [Pose](https://popmotion.io/pose/) - Animation for React 
-- I'll list other technologies along the way.
+- [React Icons](https://react-icons.netlify.com/#/) - All the icons from the popular libraries in one react component
 
 ## 🗺 Sitemap
 
