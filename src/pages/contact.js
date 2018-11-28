@@ -1,52 +1,35 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { StaticQuery, graphql } from 'gatsby'
-import { css } from 'react-emotion'
-import './contact.scss'
+import containerStyles from './contact.module.scss'
+import { FiGithub, FiTwitter, FiLinkedin, FiInstagram, FiMail } from "react-icons/fi";
+import { FaDev } from "react-icons/fa";
 
-const pageTitleContainerClass = css`
-  display: flex;
-  justify-content: center;
-`
-const pageTitleClass = css`
-  color: #cc5f5f;
-  text-transform: uppercase;
-  font-size: 5rem;
-`
-
-const contactLinksClass = css`
-  text-decoration: none;
-  color: inherit;
-  transition: color 0.5s;
-  &:hover {
-    color: #444;
-  }
-`
 
 export default ({ data }) => (
   <Layout>
-    <div className={pageTitleContainerClass}>
-      <h1 className="pageTitleClass">Contact</h1>
+    <div className={containerStyles.titleWrapper}>
+      <h1 className={containerStyles.title} >Contact</h1>
     </div>
 
-    <div className="contactWrapperClass">
+    <div className={containerStyles.wrapper} >
       <div>
-        <a href="https://github.com/kmelkon" className={contactLinksClass}>GitHub</a>
+        <a href="https://github.com/kmelkon" className={containerStyles.link}><FiGithub /></a>
       </div>
       <div>
-        <a href="https://twitter.com/kmelkon" className={contactLinksClass}>Twitter</a>
+        <a href="https://twitter.com/kmelkon" className={containerStyles.link}><FiTwitter /></a>
       </div>
       <div>
-        <a href="https://www.linkedin.com/in/kmelkon/" className={contactLinksClass}>Linkedin</a>
+        <a href="https://www.linkedin.com/in/kmelkon/" className={containerStyles.link}><FiLinkedin /></a>
       </div>
       <div>
-        <a href="https://dev.to/kmelkon" className={contactLinksClass}>DEV</a>
+        <a href="https://dev.to/kmelkon" className={containerStyles.link}><FaDev /></a>
       </div>
       <div>
-        <a href="https://www.instagram.com/kmelkon/" className={contactLinksClass}>Instagram</a>
+        <a href="https://www.instagram.com/kmelkon/" className={containerStyles.link}><FiInstagram /></a>
       </div>
       <div>
-        <a href="mailto:kmelkon@gmail.com" className={contactLinksClass}>Email</a>
+        <a href="mailto:kmelkon@gmail.com" className={containerStyles.link}><FiMail /></a>
       </div>
     </div>
   </Layout>

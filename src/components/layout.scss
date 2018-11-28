@@ -23,6 +23,7 @@ html {
 body {
   margin: 0;
   height: 100%;
+  border-top: 8px solid #cc5f5f;
 }
 article,
 aside,
@@ -642,3 +643,5 @@ pre tt:after {
 p, ul, li, a {
   font-family: 'Montserrat', sans-serif;
 }
+
+
