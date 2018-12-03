@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-emotion',
+    {
     resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-130293729-1",
@@ -21,6 +22,7 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "karammalkon.com",
       },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
