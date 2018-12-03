@@ -11,10 +11,8 @@ module.exports = {
         trackingId: "UA-130293729-1",
         // Puts tracking script in the head instead of the body
         head: true,
-        // Setting this parameter is optional
-        anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,
+        respectDNT: false,
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Any additional create only fields (optional)

@@ -28,8 +28,9 @@ Hey there! This is the source code for [my portfolio/blog website](https://www.k
 - [x] Projects showcase/links
 - [x] Contact links
 - [ ] Progressive web app
-- [ ] Make sure to only completely replace emotion with sass and CSS Modules 
-- [ ] Add Google Analytics
+- [ ] Make sure to completely replace emotion with sass and CSS Modules 
+- [x] Add Google Analytics
+  - [ ] User `<OutboundLink />` for external links
 - [ ] Add newsletter subscription for the blog 
 
 
