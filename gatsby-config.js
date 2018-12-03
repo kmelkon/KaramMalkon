@@ -1,10 +1,26 @@
 module.exports = {
   siteMetadata: {
     title: 'Karam Malkon',
-    siteUrl: 'https://karam-malkon.netlify.com',
+    siteUrl: 'https://karammalkon.com',
   },
   plugins: [
     'gatsby-plugin-emotion',
+    resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-130293729-1",
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "karammalkon.com",
+      },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
