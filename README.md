@@ -2,10 +2,7 @@
   Karam Malkon
 </h1>
 
-<!-- [![Build Status](https://travis-ci.org/kevinwolfcr/kevinwolf.me.svg?branch=master)](https://travis-ci.org/kevinwolfcr/kevinwolf.me)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) -->
-
-Hey there! This is the source code for [my portfolio/blog website](https://https://karam-malkon.netlify.com/.netlify.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
+Hey there! This is the source code for [my portfolio/blog website](https://www.karammalkon.com/). I started this as a way to teach myself React and Gatsby so it's a work in progress. Feel free to check the codebase and let me know what you think!
 
 ## 👨‍💻 Tech stack
 
@@ -14,24 +11,26 @@ Hey there! This is the source code for [my portfolio/blog website](https://https
 - [netlify](https://www.netlify.com/) - Static site deployment
 - [Sass](https://sass-lang.com) - CSS with superpowers
 - [Pose](https://popmotion.io/pose/) - Animation for React 
-- I'll list other technologies along the way.
+- [React Icons](https://react-icons.netlify.com/#/) - All the icons from the popular libraries in one react component
 
 ## 🗺 Sitemap
 
-- [Home](https://https://karam-malkon.netlify.com/.netlify.com/)
-- [About](https://https://karam-malkon.netlify.com/.netlify.com/about/)
-- Blog (🏗 In progress) 
-- [Projects](https://https://karam-malkon.netlify.com/.netlify.com/projects/)
-- [Contact](https://https://karam-malkon.netlify.com/.netlify.com/contact/)
+- [Home](https://www.karammalkon.com/)
+- [About](https://www.karammalkon.com/about/)
+- [Blog](https://www.karammalkon.com/blog/) 
+- [Projects](https://www.karammalkon.com/projects/)
+- [Contact](https://www.karammalkon.com/contact/)
 
 ## ⏰ TODO
 
 - [x] Responsive
-- [ ] Blog
+- [x] Blog
 - [x] Projects showcase/links
 - [x] Contact links
 - [ ] Progressive web app
 - [ ] Make sure to only completely replace emotion with sass and CSS Modules 
+- [ ] Add Google Analytics
+- [ ] Add newsletter subscription for the blog 
 
 
 ## 🖐 Contributing

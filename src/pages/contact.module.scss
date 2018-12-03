@@ -1,4 +1,16 @@
-.contactWrapperClass {
+.titleWrapper {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+  &:hover {
+    color: #000000;
+  }
+}
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #444;
@@ -7,11 +19,15 @@
   grid-gap: 50px;
   height: 50vh;
   margin-top: 60px;
+  transition: color 0.5s;
 }
-.pageTitleClass {
+.title {
   color: #cc5f5f;
   text-transform: uppercase;
   font-size: 5rem;
+}
+svg {
+  vertical-align: middle;
 }
 /* 
   ##Device = Desktops
@@ -35,7 +51,7 @@
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .contactWrapperClass {
+  .wrapper {
     font-size: 2.4rem;
     grid-gap: 20px;
   }
@@ -55,11 +71,11 @@
   */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .contactWrapperClass {
+  .wrapper {
     font-size: 1.4rem;
     grid-gap: 10px;
   }
-  .pageTitleClass {
+  .title {
     font-size: 3.5rem;
   }
 }
@@ -70,11 +86,11 @@
   */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .contactWrapperClass {
+  .wrapper {
     font-size: 1.4rem;
     grid-gap: 10px;
   }
-  .pageTitleClass {
+  .title {
     font-size: 3.5rem;
   }
 }

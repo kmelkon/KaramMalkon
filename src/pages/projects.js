@@ -37,9 +37,9 @@ export default ({ data }) => (
     </div>
     <div className={projectsWrapperClass}>
       <div className={projectBoxClass}>
-        <h3 className={projectHeaderClass}>This website</h3>
+        <h3 className={projectHeaderClass}>Karam Malkon's Portfolio/Blog</h3>
         <p>
-          I wanted to use Gatsby as a way to get my feet wet in React and it's so much fun.
+          A personal portfolio/blog built using GatsbyJS.
         </p>
         <div className="projectLinksWrapperClass">
           <a
@@ -49,20 +49,20 @@ export default ({ data }) => (
             Project on Github
           </a>
           <Link to="/" className="projectLinkClass">
-            Uhm.. Homepage
+            Go to project
           </Link>
         </div>
       </div>
       <div className={projectBoxClass}>
-        <h3 className={projectHeaderClass}>Placeholder</h3>
-        <p>Placeholder description.</p>
+        <h3 className={projectHeaderClass}>React Clicker</h3>
+        <p>A simple react clicker/incremental game.</p>
         <div className="projectLinksWrapperClass">
-          <Link to="/" className="projectLinkClass">
-            Link to github
-          </Link>
-          <Link to="/" className="projectLinkClass">
-            Link to this website
-          </Link>
+          <a href="https://github.com/kmelkon/react-clicker" className="projectLinkClass">
+            Project on Github
+          </a>
+          <a href="https://romantic-knuth-651f53.netlify.com/" className="projectLinkClass">
+            Go to project
+          </a>
         </div>
       </div>
     </div>
