@@ -1,25 +1,48 @@
-.projectsTitleContainerClass {
+@import '../sassy/colors';
+
+.titleContainer {
   display: flex;
   justify-content: center;
 }
-.projectsTitleClass {
-  color: #cc5f5f;
+.title {
+  color: $primary-color;
   text-transform: uppercase;
   font-size: 5rem;
 }
-.projectLinksWrapperClass {
+.linkWrapper {
   text-align: center;
 }
-.projectLinkClass {
+.link {
   margin-left: 20px;
   text-decoration: none;
-  color: #2e2532;
+  color: $darkest-black;
   padding: 10px 5px 0 5px;
   transition: box-shadow 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
-  box-shadow: inset 0px -7px 0px 0px #f3c0c0;
+  box-shadow: inset 0px -7px 0px 0px $primary-lightest;
   &:hover {
-    box-shadow: inset 0px -20px 0px 0px #f3c0c0;
+    box-shadow: inset 0px -20px 0px 0px $primary-lightest;
   }
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project {
+  text-decoration: none;
+  border: 1px solid $primary-color;
+  color: $darkest-black;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 75%;
+  max-width: 75%;
+  transition: box-shadow 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+  &:hover {
+    box-shadow: 5px 6px 0px 1px $primary-color;
+  }
+}
+.projectTitle {
+  text-align: center;
 }
 /* 
     ##Device = Desktops
@@ -59,14 +82,14 @@
     */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .pageTitleClass {
+  .title {
     font-size: 3.5rem;
   }
-  .projectLinksWrapperClass {
+  .linkWrapper {
     display: flex;
     flex-direction: column;
   }
-  .projectLinkClass {
+  .link {
     margin: 0;
   }
 }
@@ -77,14 +100,14 @@
     */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .pageTitleClass {
+  .title {
     font-size: 3.5rem;
   }
-  .projectLinksWrapperClass {
+  .linkWrapper {
     display: flex;
     flex-direction: column;
   }
-  .projectLinkClass {
+  .link {
     margin: 0;
   }
 }

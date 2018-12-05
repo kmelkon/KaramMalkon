@@ -1,37 +1,19 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { StaticQuery, graphql } from 'gatsby'
-import { css } from 'react-emotion'
 import Image from '../components/image'
-import './about.scss'
-
-const pageTitleContainerClass = css`
-  display: flex;
-  justify-content: center;
-`
-
-const contentWrapper = css`
-  display: flex;
-`
-const aboutTextContent= css`
-  max-width: 600px;
-`
-const avatarClass = css`
-  flex-grow: 1;
-  margin-right: 50px;
-  margin-top: -20px;
-`
+import containerStyles from './about.module.scss'
 
 export default ({ data }) => (
   <Layout>
-    <div className={pageTitleContainerClass}>
-      <h1 className="pageTitleClass">About</h1>
+    <div className={containerStyles.titleContainer}>
+      <h1 className={containerStyles.title}>About</h1>
     </div>
-    <div className="contentWrapper" >
-      <div className="avatarClass">
+    <div className={containerStyles.wrapper} >
+      <div className={containerStyles.avatar}>
          <Image />
       </div>
-      <div className={aboutTextContent} >
+      <div className={containerStyles.about} >
         <p>
           I’m a frontend developer currently living in Stockholm, Sweden. My
           favorite technologies right now are React, GraphQL and Gatsby. I also
@@ -50,6 +32,9 @@ export default ({ data }) => (
         </p>
       </div>
     </div>
+    {/* <div>
+        <h3>Tools of the trade</h3>
+      </div> */}
   </Layout>
 )
 

@@ -8,9 +8,11 @@ image: lists.jpg
 This is a continuoslly updated list of the learning materials that I'm using to learn React, JS and build some projects along the way.
 
 ## React & JavaScript ES6
-* [Reactiflux](https://www.reactiflux.com/learning/)
-* [Freecodecamp](https://www.freecodecamp.org/)
-* [Advanced blog using Gatsby](https://reactgo.com/gatsby-advanced-blog-tutorial/)
+* [Reactiflux!](https://www.reactiflux.com/learning/)
+* [FreeCodeCamp](https://www.freecodecamp.org/)
+* [Building an advanced blog using Gatsby.](https://reactgo.com/gatsby-advanced-blog-tutorial/)
+* [The Road to Learn React book.](https://www.robinwieruch.de/the-road-to-learn-react/)
+* [HowToGraphQL](https://www.howtographql.com/)
 
 
 ## Projects
