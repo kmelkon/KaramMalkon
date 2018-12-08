@@ -1,8 +1,22 @@
+@import '../sassy/colors';
+
 .article {
-    margin-top: 50px;
-    font-size: 1.1rem;
-    line-height: 1.8rem;
-    margin-bottom: 100px;
+  margin-top: 50px;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 100px;
 }
 .image {
+}
+
+.article a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: $darkest-black;
+  padding: 10px 5px 0 5px;
+  transition: box-shadow 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+  box-shadow: inset 0px -7px 0px 0px $primary-lightest;
+  &:hover {
+    box-shadow: inset 0px -20px 0px 0px $primary-lightest;
+  }
 }
