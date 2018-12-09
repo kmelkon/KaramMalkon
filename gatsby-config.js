@@ -5,10 +5,11 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-emotion',
+    'gatsby-plugin-catch-links',
     {
-    resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-130293729-1",
+        trackingId: 'UA-130293729-1',
         // Puts tracking script in the head instead of the body
         head: true,
       },
@@ -27,16 +28,14 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [
-          `gatsby-remark-prismjs`,
-        ]
-      }
+        plugins: [`gatsby-remark-prismjs`],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages",
+        name: 'pages',
       },
     },
     {
