@@ -6,7 +6,6 @@ import SplitText from 'react-pose-text'
 import facepaint from 'facepaint'
 import './index.scss'
 
-
 const center = css`
   text-align: center;
 `
@@ -33,18 +32,35 @@ const responsiveMediumText = css(
 )
 
 const charPoses = {
+  hoverable: true,
+  pressable: true,
+  init: {
+    opacity: 1,
+    scale: 1,
+    x: 0,
+    y: 0,
+    textShadow: '0px 0px 0px',
+  },
   exit: { opacity: 0, y: -100 },
   enter: {
     opacity: 1,
     y: 0,
     delay: ({ charIndex }) => charIndex * 300,
   },
+  hover: {
+    scale: 1.2,
+    y: Math.floor(Math.random() * (-80 - 80 + 1)) + 80,
+    x: Math.floor(Math.random() * (-80 - 80 + 1)) + 80,
+  },
+  press: {
+    scale: 2,
+    textShadow: '0px 1px 50px',
+  },
 }
 
 const IndexPage = () => (
   <Layout>
     <div className="pageTitleContainerClass">
-    
       <div>
         <h2 className={cx(center, responsiveMediumText)}>
           Hey there, my name is
