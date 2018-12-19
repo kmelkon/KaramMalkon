@@ -20,6 +20,7 @@
 }
 .about {
   max-width: 600px;
+  margin-bottom: 10vh;
 }
 
 /* 
@@ -93,5 +94,11 @@
   }
   .pageTitleClass {
     font-size: 3.5rem;
+  }
+  .wrapper {
+    flex-direction: column;
+    .avatar {
+      display: none;
+    }
   }
 }

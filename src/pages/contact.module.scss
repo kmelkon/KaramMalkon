@@ -14,14 +14,18 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   color: $mid-black;
   text-align: center;
   font-size: 3.5rem;
   grid-gap: 50px;
   height: 50vh;
-  margin-top: 60px;
   transition: color 0.5s;
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .title {
   color: $primary-color;
@@ -74,8 +78,9 @@ svg {
 
 @media (min-width: 481px) and (max-width: 767px) {
   .wrapper {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .title {
     font-size: 3.5rem;
@@ -89,8 +94,9 @@ svg {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .wrapper {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
     grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .title {
     font-size: 3.5rem;
