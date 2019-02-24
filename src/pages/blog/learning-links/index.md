@@ -2,7 +2,6 @@
 title: 'React & JavaScript ES6 Learning Links'
 description: React, ES6 and small projects links
 date: '2018-12-04'
-image: lists.jpg
 ---
 
 This is a continuously updated list of the learning materials that I'm using to learn React, JS and build some projects along the way.

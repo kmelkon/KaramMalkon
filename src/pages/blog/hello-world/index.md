@@ -2,7 +2,6 @@
 title: "Helllo World!"
 description: This post is related to the gatsbyjs
 date: '2018-11-20'
-image: hello.jpg
 ---
 
 I’ve never written a blog post before. I realise this is not a good way to start a blog post… But here goes.

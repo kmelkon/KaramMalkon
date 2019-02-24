@@ -9,22 +9,22 @@ function BlogPost(props) {
   const post = props.data.markdownRemark
   const url = props.data.site.siteMetadata.siteUrl
   const { title, description } = post.frontmatter
-  const thumbnail = post.frontmatter.image.childImageSharp.resize.src
+  // const thumbnail = post.frontmatter.image.childImageSharp.resize.src
   return (
     <Layout>
       <Metatags
         title={title}
         description={description}
-        thumbnail={url + thumbnail}
+        // thumbnail={url + thumbnail}
         url={url}
         pathname={props.location.pathname}
       />
       <div>
         <h1>{title}</h1>
-        <Img
+        {/* <Img
           className={containerStyles.image}
           fluid={post.frontmatter.image.childImageSharp.fluid}
-        />
+        /> */}
         <div
           className={containerStyles.article}
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -43,16 +43,7 @@ export const query = graphql`
       frontmatter {
         title
         description
-        image {
-          childImageSharp {
-            resize(quality: 100) {
-              src
-            }
-            fluid(maxWidth: 1200) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
+        
       }
     }
 
@@ -63,3 +54,13 @@ export const query = graphql`
     }
   }
 `
+// image {
+//   childImageSharp {
+//     resize(quality: 100) {
+//       src
+//     }
+//     fluid(maxWidth: 1200) {
+//       ...GatsbyImageSharpFluid
+//     }
+//   }
+// }

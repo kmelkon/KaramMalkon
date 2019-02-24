@@ -2,7 +2,6 @@
 title: 'React Development Environment Setup'
 description: This post is related to the gatsbyjs
 date: '2018-12-09'
-image: 'env.jpg'
 ---
 
 <!-- ## Table of Contents
